@@ -1,0 +1,39 @@
+@import "tailwindcss" ;
+
+
+.btn-default{
+    @apply w-full px-6 py-3 mt-4 rounded-2xl font-bold tracking-wide text-white bg-teal-900 hover:bg-teal-700  hover:shadow-2xl   active:scale-96 transition-all duration-300 ease-in-out
+    transform hover:scale-150 cursor-pointer
+}
+
+.btn-default-disabled{
+    @apply w-full px-6 py-3 mt-4 rounded-2xl font-bold bg-teal-100 shadow-lg  cursor-not-allowed
+}
+
+.btn-blue{
+    @apply bg-blue-400 text-white py-3 w-full rounded-md hover:bg-blue-700 shadow-md hover:shadow-xl active:bg-blue-500 mt-4 cursor-pointer
+}
+
+.btn-blue-disabled{
+    @apply bg-blue-300 text-white py-3 w-full rounded-md cursor-not-allowed
+}
+
+.btn-green{
+    @apply bg-green-400 text-white py-3 w-full rounded-md hover:bg-green-400 shadow-md hover:shadow-xl active:bg-green-500 mt-4 cursor-pointer
+}
+
+.btn-green-disabled{
+    @apply bg-green-300 text-white py-3 w-full rounded-md cursor-not-allowed
+}
+
+.btn-orange{
+    @apply bg-orange-400 text-white py-3 w-full rounded-md hover:bg-orange-400 shadow-md hover:shadow-xl active:bg-orange-500 mt-4 cursor-pointer
+}
+
+.btn-orange-disabled{
+    @apply bg-orange-300 text-white py-3 w-full rounded-md cursor-not-allowed
+}
+
+.btn-Login{
+    @apply w-full px-6 py-3 mt-4 rounded-2xl font-bold tracking-wide bg-linear-to-br from-indigo-300 via-green-300 to-red-300 shadow-lg active:scale-96 transition-all duration-300 cursor-pointer
+}
