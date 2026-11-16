@@ -6,10 +6,10 @@ import Login from './public/Login'
 import Sidebar from './Base/Sidebar'
 import AddAllotment from './private/allotments/AddAllotment'
 import ViewAllotments from './private/allotments/ViewAllotments'
-import ViewBook from './private/Book/Viewbook'
-import AddStudent from './private/student/Addstudent'
-import ViewStudents from './private/student/Viewstudents'
-import AddBook from './private/Book/Addbook'
+import ViewBook from './private/Book/ViewBook'
+import AddStudent from './private/student/AddStudent'
+import ViewStudents from './private/student/ViewStudents'
+import AddBook from './private/Book/AddBook'
 
 
 
