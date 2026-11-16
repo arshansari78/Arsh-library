@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom'
 
 import { IoPersonAddSharp } from 'react-icons/io5'
 import useBooksCrud from '../../../configurations/crud/useBookCrud'
-import DeleteBook from './Deletebook'
-import UpdateBook from './Updatebook'
+import DeleteBook from './DeleteBook'
+import UpdateBook from './UpdateBook'
 
 export default function ViewBook() {
     const [data, setData] = useState([])
