@@ -47,14 +47,15 @@ export default function Sidebar() {
                 </svg>
               </button>
               <a
-                href="https://youtube.com/shorts/bknrDOdLkb0?si=iAaNAMMqtV12AOZ6"
-                className="flex ms-2 md:me-24"
+                href=" https://github.com/arshansari78"
+                className="flex min-w-0 items-center ms-2 md:me-24"
               >
-                <img src={Logo2} className="h-11 me-3" alt="FlowBite Logo" />
-                <span className="self-center  text-lg font-bold whitespace-nowrap dark:text-white">
-                  WELCOME TO ARSH'S LIBRARY
+                <img src={Logo2} className="h-9 md:h-11 me-2 shrink-0" alt="Arsh Library Logo" />
+                <span className="self-center truncate text-sm md:text-lg font-bold dark:text-white">
+                  <span className="hidden md:inline">WELCOME TO</span> ARSH'S LIBRARY
                 </span>
               </a>
+              
             </div>
             <div className="flex items-center">
               <div className="flex items-center ms-3">
